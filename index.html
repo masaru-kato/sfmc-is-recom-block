@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">    
+    <title>IS Recommendation ContentBlock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="salesforce-lightning-design-system.css">
+</head>
+
+<article class="slds-card">
+    <div class="slds-card__header slds-grid">
+        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+
+            <div class="slds-media__body">
+                <h2>
+                    <span class="slds-text-heading_small">IS Recommendation Setting</span>
+                </h2>
+            </div>
+        </header>
+    </div>
+    <div class="slds-card__body slds-card__body_inner">
+        <div id="workspace">
+            <div style="padding-bottom:10px" class="slds-form-element">
+                <label class="slds-form-element__label" for="action">Action</label>
+                <div class="slds-form-element__control">
+                    <input type="text" id="action" class="slds-input" placeholder="Action" />
+                </div>
+            </div>
+            
+            <div style="padding-bottom:10px" class="slds-form-element">
+                <label class="slds-form-element__label" for="pid">Personal Identifier</label>
+                <div class="slds-form-element__control">
+                    <input type="text" id="pid" class="slds-input" placeholder="DE Column Name" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="slds-card__footer">IS content block on AmazonS3 v1.1</footer>
+</article>
+
+<script src="blocksdk.js"></script>
+<script src="main.js"></script>
+
+</body>
+
+</html>
